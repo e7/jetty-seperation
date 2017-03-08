@@ -275,7 +275,7 @@ then
 fi
 
 if [ -z "$JETTY_STATE" ] ; then
-  JETTY_STATE=$JETTY_BASE/${NAME}.state
+  JETTY_STATE=$JETTY_BASE/run/${NAME}.state
   # JETTY_STATE=/run/jetty/${NAME}.state
 fi
 
